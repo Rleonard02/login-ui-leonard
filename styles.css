@@ -18,6 +18,10 @@ button{
     border:none;
 }
 
+button:hover{
+    background-color: rgb(129, 209, 252);
+}
+
 p{
     font-family: Comfortaa;
 }
@@ -84,4 +88,8 @@ input[type=text]:focus{
 
 i{
     font-size:35px;
+}
+
+i:hover{
+    font-size:40px;
 }
