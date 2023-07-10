@@ -1,3 +1,87 @@
-body{
-    background-color: green;
+.container{
+    height: 1000px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* div{
+    border:red solid 1px;
+} */
+
+button{
+    border-radius: 40px;
+    width:60%;
+    min-height:50px;
+    background-color: rgb(188, 230, 252);
+    border:none;
+}
+
+p{
+    font-family: Comfortaa;
+}
+.main-card{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 400px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:15%;
+    background-color: rgb(230, 239, 246);
+    border:none;
+    box-shadow: -7px 11px 24px 0px rgb(160, 172, 181);
+}
+
+.login-card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100px;
+    min-height:250px;
+}
+
+
+.user, .password{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.forgotPw{
+    font-size: 10px;
+    font-style: italic;
+}
+
+::placeholder{
+    font-family: Comfortaa;
+    background-color: rgb(230, 239, 246);
+}
+
+input[type=text]{
+    border:none;
+    border-bottom: 2px solid rgb(53, 53, 53);
+}
+
+input[type=text]:focus{
+    border:none;
+    border-bottom: 2px solid black;
+}
+
+.login-text{
+    font-size:30px;
+}
+
+.socials{
+    display:flex;
+    min-width:60%;
+    min-height:10%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+i{
+    font-size:35px;
 }
