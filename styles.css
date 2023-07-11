@@ -25,6 +25,7 @@ button:hover{
 p{
     font-family: Comfortaa;
 }
+
 .main-card{
     display: flex;
     flex-direction: column;
@@ -37,6 +38,7 @@ p{
     border:none;
     box-shadow: -7px 11px 24px 0px rgb(160, 172, 181);
 }
+
 
 .login-card{
     display:flex;
