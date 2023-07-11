@@ -66,7 +66,7 @@ p{
     background-color: rgb(230, 239, 246);
 }
 
-input[type=text]{
+input[type=text], input[type=password]{
     border:none;
     border-bottom: 2px solid rgb(53, 53, 53);
 }
